@@ -1,0 +1,730 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	perl: warning: Setting locale failed.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	perl: warning: Please check that your locale settings:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 		LANGUAGE = "en_US",
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 		LC_ALL = (unset),
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 		LANG = "en_US.UTF-8"
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    are supported and installed on your system.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	perl: warning: Falling back to the standard locale ("C").
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py:75: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  cumm_source_mask = np.zeros(annotation.shape, dtype=np.int)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:root:Building model for structure: Isocortex
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:48:31,310 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180718587?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180718587?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180718587?image=projection_density&resolution=100 HTTP/1.1" 200 835204
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:48:45,186 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112951804?image=data_mask&resolution=100 HTTP/1.1" 200 77554
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:48:45,702 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112951804?image=injection_density&resolution=100 HTTP/1.1" 200 8037
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:48:45,916 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112951804?image=injection_fraction&resolution=100 HTTP/1.1" 200 8020
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:48:46,120 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112951804?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112951804?image=projection_density&resolution=100 HTTP/1.1" 200 1195210
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:09,174 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157710335?image=data_mask&resolution=100 HTTP/1.1" 200 84429
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:10,362 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157710335?image=injection_density&resolution=100 HTTP/1.1" 200 6363
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:10,576 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157710335?image=injection_fraction&resolution=100 HTTP/1.1" 200 6339
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:10,786 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157710335?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157710335?image=projection_density&resolution=100 HTTP/1.1" 200 828799
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py:88: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  ordering = np.arange(offset, w.shape[0] + offset, dtype=np.int)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:root:Building model for structure: OLF
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:24,850 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/277480964?image=data_mask&resolution=100 HTTP/1.1" 200 72890
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:25,863 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/277480964?image=injection_density&resolution=100 HTTP/1.1" 200 5856
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:26,070 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/277480964?image=injection_fraction&resolution=100 HTTP/1.1" 200 5865
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:26,345 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/277480964?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/277480964?image=projection_density&resolution=100 HTTP/1.1" 200 156180
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:27,965 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127907465?image=data_mask&resolution=100 HTTP/1.1" 200 34093
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:28,745 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127907465?image=injection_density&resolution=100 HTTP/1.1" 200 7843
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:28,955 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127907465?image=injection_fraction&resolution=100 HTTP/1.1" 200 7707
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:29,322 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127907465?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127907465?image=projection_density&resolution=100 HTTP/1.1" 200 439661
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:36,409 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984209?image=data_mask&resolution=100 HTTP/1.1" 200 48578
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:37,252 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984209?image=injection_density&resolution=100 HTTP/1.1" 200 7034
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:37,467 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984209?image=injection_fraction&resolution=100 HTTP/1.1" 200 7018
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:38,253 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984209?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984209?image=projection_density&resolution=100 HTTP/1.1" 200 526807
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:48,181 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114755099?image=data_mask&resolution=100 HTTP/1.1" 200 90184
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:48,942 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114755099?image=injection_density&resolution=100 HTTP/1.1" 200 7552
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:49,145 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114755099?image=injection_fraction&resolution=100 HTTP/1.1" 200 7404
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:49,417 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114755099?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114755099?image=projection_density&resolution=100 HTTP/1.1" 200 561924
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:54,891 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157654069?image=data_mask&resolution=100 HTTP/1.1" 200 7386
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:55,250 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157654069?image=injection_density&resolution=100 HTTP/1.1" 200 6287
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:55,455 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157654069?image=injection_fraction&resolution=100 HTTP/1.1" 200 6275
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:55,729 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/157654069?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/157654069?image=projection_density&resolution=100 HTTP/1.1" 200 391374
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:58,013 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/122641078?image=data_mask&resolution=100 HTTP/1.1" 200 75138
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:58,611 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/122641078?image=injection_density&resolution=100 HTTP/1.1" 200 7885
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:58,821 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/122641078?image=injection_fraction&resolution=100 HTTP/1.1" 200 7724
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:49:59,089 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/122641078?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/122641078?image=projection_density&resolution=100 HTTP/1.1" 200 505944
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:01,648 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272918345?image=data_mask&resolution=100 HTTP/1.1" 200 82742
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:02,325 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272918345?image=injection_density&resolution=100 HTTP/1.1" 200 6551
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:02,540 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272918345?image=injection_fraction&resolution=100 HTTP/1.1" 200 6571
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:02,861 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272918345?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272918345?image=projection_density&resolution=100 HTTP/1.1" 200 234240
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:07,780 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/125802444?image=data_mask&resolution=100 HTTP/1.1" 200 69233
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:09,116 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/125802444?image=injection_density&resolution=100 HTTP/1.1" 200 9560
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:09,319 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/125802444?image=injection_fraction&resolution=100 HTTP/1.1" 200 9391
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:09,793 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/125802444?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/125802444?image=projection_density&resolution=100 HTTP/1.1" 200 334096
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:13,826 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/121509711?image=data_mask&resolution=100 HTTP/1.1" 200 72596
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:14,719 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/121509711?image=injection_density&resolution=100 HTTP/1.1" 200 7435
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:15,070 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/121509711?image=injection_fraction&resolution=100 HTTP/1.1" 200 7305
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:15,338 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/121509711?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/121509711?image=projection_density&resolution=100 HTTP/1.1" 200 495876
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:27,417 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146857301?image=data_mask&resolution=100 HTTP/1.1" 200 42915
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:28,268 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146857301?image=injection_density&resolution=100 HTTP/1.1" 200 7314
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:28,686 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146857301?image=injection_fraction&resolution=100 HTTP/1.1" 200 7201
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:28,964 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146857301?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146857301?image=projection_density&resolution=100 HTTP/1.1" 200 519907
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:40,148 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/126653015?image=data_mask&resolution=100 HTTP/1.1" 200 56653
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:41,024 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/126653015?image=injection_density&resolution=100 HTTP/1.1" 200 7241
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:41,242 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/126653015?image=injection_fraction&resolution=100 HTTP/1.1" 200 7190
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:41,727 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/126653015?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/126653015?image=projection_density&resolution=100 HTTP/1.1" 200 417369
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:50,110 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112307046?image=data_mask&resolution=100 HTTP/1.1" 200 81828
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:52,622 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112307046?image=injection_density&resolution=100 HTTP/1.1" 200 6588
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:52,835 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112307046?image=injection_fraction&resolution=100 HTTP/1.1" 200 6507
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:50:53,138 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112307046?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112307046?image=projection_density&resolution=100 HTTP/1.1" 200 469216
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:02,039 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113443572?image=data_mask&resolution=100 HTTP/1.1" 200 54865
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:02,894 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113443572?image=injection_density&resolution=100 HTTP/1.1" 200 6819
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:04,336 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113443572?image=injection_fraction&resolution=100 HTTP/1.1" 200 6754
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:04,600 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113443572?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113443572?image=projection_density&resolution=100 HTTP/1.1" 200 445272
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:15,489 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114249084?image=data_mask&resolution=100 HTTP/1.1" 200 55112
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:16,187 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114249084?image=injection_density&resolution=100 HTTP/1.1" 200 7105
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:16,394 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114249084?image=injection_fraction&resolution=100 HTTP/1.1" 200 6983
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:16,666 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114249084?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114249084?image=projection_density&resolution=100 HTTP/1.1" 200 279057
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py:88: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  ordering = np.arange(offset, w.shape[0] + offset, dtype=np.int)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:root:Building model for structure: HPF
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:23,381 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640081415?image=data_mask&resolution=100 HTTP/1.1" 200 71870
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:25,907 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640081415?image=injection_density&resolution=100 HTTP/1.1" 200 7514
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:26,265 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640081415?image=injection_fraction&resolution=100 HTTP/1.1" 200 7509
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:26,549 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640081415?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640081415?image=projection_density&resolution=100 HTTP/1.1" 200 843893
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:46,278 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120494729?image=data_mask&resolution=100 HTTP/1.1" 200 111894
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:47,609 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120494729?image=injection_density&resolution=100 HTTP/1.1" 200 5409
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:47,824 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120494729?image=injection_fraction&resolution=100 HTTP/1.1" 200 5403
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:48,588 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120494729?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120494729?image=projection_density&resolution=100 HTTP/1.1" 200 200399
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:52,636 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112672268?image=data_mask&resolution=100 HTTP/1.1" 200 70085
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:54,369 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112672268?image=injection_density&resolution=100 HTTP/1.1" 200 6208
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:54,929 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112672268?image=injection_fraction&resolution=100 HTTP/1.1" 200 6195
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:51:56,416 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112672268?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112672268?image=projection_density&resolution=100 HTTP/1.1" 200 379454
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:00,868 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640282128?image=data_mask&resolution=100 HTTP/1.1" 200 72087
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:01,831 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640282128?image=injection_density&resolution=100 HTTP/1.1" 200 10250
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:02,037 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640282128?image=injection_fraction&resolution=100 HTTP/1.1" 200 10232
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:02,402 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/640282128?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/640282128?image=projection_density&resolution=100 HTTP/1.1" 200 279836
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:05,440 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142654100?image=data_mask&resolution=100 HTTP/1.1" 200 67458
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:08,173 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142654100?image=injection_density&resolution=100 HTTP/1.1" 200 6962
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:08,618 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142654100?image=injection_fraction&resolution=100 HTTP/1.1" 200 6966
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:08,919 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142654100?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142654100?image=projection_density&resolution=100 HTTP/1.1" 200 1187482
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:43,384 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114429338?image=data_mask&resolution=100 HTTP/1.1" 200 70402
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:44,437 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114429338?image=injection_density&resolution=100 HTTP/1.1" 200 7232
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:44,645 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114429338?image=injection_fraction&resolution=100 HTTP/1.1" 200 7233
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:45,159 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114429338?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114429338?image=projection_density&resolution=100 HTTP/1.1" 200 272489
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:49,742 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/558581415?image=data_mask&resolution=100 HTTP/1.1" 200 35384
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:50,237 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/558581415?image=injection_density&resolution=100 HTTP/1.1" 200 5882
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:50,461 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/558581415?image=injection_fraction&resolution=100 HTTP/1.1" 200 5939
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:50,782 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/558581415?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/558581415?image=projection_density&resolution=100 HTTP/1.1" 200 222990
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:56,827 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/100148143?image=data_mask&resolution=100 HTTP/1.1" 200 76610
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:59,100 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/100148143?image=injection_density&resolution=100 HTTP/1.1" 200 7043
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:59,316 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/100148143?image=injection_fraction&resolution=100 HTTP/1.1" 200 7071
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:52:59,603 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/100148143?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/100148143?image=projection_density&resolution=100 HTTP/1.1" 200 207494
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:06,646 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120436274?image=data_mask&resolution=100 HTTP/1.1" 200 84933
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:08,037 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120436274?image=injection_density&resolution=100 HTTP/1.1" 200 6262
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:08,241 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120436274?image=injection_fraction&resolution=100 HTTP/1.1" 200 6260
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:08,664 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/120436274?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/120436274?image=projection_density&resolution=100 HTTP/1.1" 200 179133
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:11,797 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180297139?image=data_mask&resolution=100 HTTP/1.1" 200 80189
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:13,155 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180297139?image=injection_density&resolution=100 HTTP/1.1" 200 7173
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:13,365 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180297139?image=injection_fraction&resolution=100 HTTP/1.1" 200 7045
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:13,844 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180297139?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180297139?image=projection_density&resolution=100 HTTP/1.1" 200 879033
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:34,333 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113935285?image=data_mask&resolution=100 HTTP/1.1" 200 74644
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:36,064 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113935285?image=injection_density&resolution=100 HTTP/1.1" 200 7909
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:36,776 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113935285?image=injection_fraction&resolution=100 HTTP/1.1" 200 7780
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:37,320 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/113935285?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/113935285?image=projection_density&resolution=100 HTTP/1.1" 200 215304
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:40,213 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/585051446?image=data_mask&resolution=100 HTTP/1.1" 200 74272
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:40,926 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/585051446?image=injection_density&resolution=100 HTTP/1.1" 200 8837
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:41,130 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/585051446?image=injection_fraction&resolution=100 HTTP/1.1" 200 8864
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:41,409 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/585051446?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/585051446?image=projection_density&resolution=100 HTTP/1.1" 200 589199
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:51,041 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180523704?image=data_mask&resolution=100 HTTP/1.1" 200 63066
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:52,229 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180523704?image=injection_density&resolution=100 HTTP/1.1" 200 5620
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:53,496 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180523704?image=injection_fraction&resolution=100 HTTP/1.1" 200 5623
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:53,782 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/180523704?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/180523704?image=projection_density&resolution=100 HTTP/1.1" 200 126509
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:55,969 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112745787?image=data_mask&resolution=100 HTTP/1.1" 200 78850
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:57,569 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112745787?image=injection_density&resolution=100 HTTP/1.1" 200 6180
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:57,876 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112745787?image=injection_fraction&resolution=100 HTTP/1.1" 200 6172
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:53:58,706 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/112745787?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/112745787?image=projection_density&resolution=100 HTTP/1.1" 200 358784
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:06,812 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/152994878?image=data_mask&resolution=100 HTTP/1.1" 200 60469
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:07,665 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/152994878?image=injection_density&resolution=100 HTTP/1.1" 200 6608
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:08,996 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/152994878?image=injection_fraction&resolution=100 HTTP/1.1" 200 6607
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:09,290 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/152994878?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/152994878?image=projection_density&resolution=100 HTTP/1.1" 200 431995
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:18,352 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127222723?image=data_mask&resolution=100 HTTP/1.1" 200 74972
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:19,190 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127222723?image=injection_density&resolution=100 HTTP/1.1" 200 9764
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:19,543 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127222723?image=injection_fraction&resolution=100 HTTP/1.1" 200 9566
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:19,998 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127222723?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127222723?image=projection_density&resolution=100 HTTP/1.1" 200 568608
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:29,717 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272414403?image=data_mask&resolution=100 HTTP/1.1" 200 77218
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:30,462 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272414403?image=injection_density&resolution=100 HTTP/1.1" 200 8050
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:30,950 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272414403?image=injection_fraction&resolution=100 HTTP/1.1" 200 8049
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:31,233 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/272414403?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/272414403?image=projection_density&resolution=100 HTTP/1.1" 200 1157898
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:50,389 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114472145?image=data_mask&resolution=100 HTTP/1.1" 200 60679
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:51,514 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114472145?image=injection_density&resolution=100 HTTP/1.1" 200 7990
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:51,727 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114472145?image=injection_fraction&resolution=100 HTTP/1.1" 200 7717
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:54:52,333 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/114472145?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/114472145?image=projection_density&resolution=100 HTTP/1.1" 200 1057090
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:10,098 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984915?image=data_mask&resolution=100 HTTP/1.1" 200 57203
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:10,894 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984915?image=injection_density&resolution=100 HTTP/1.1" 200 8155
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:11,102 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984915?image=injection_fraction&resolution=100 HTTP/1.1" 200 8105
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:11,375 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/146984915?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/146984915?image=projection_density&resolution=100 HTTP/1.1" 200 327090
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:14,559 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142656218?image=data_mask&resolution=100 HTTP/1.1" 200 38756
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:15,277 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142656218?image=injection_density&resolution=100 HTTP/1.1" 200 7021
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:15,816 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142656218?image=injection_fraction&resolution=100 HTTP/1.1" 200 7015
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:17,318 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/142656218?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/142656218?image=projection_density&resolution=100 HTTP/1.1" 200 950205
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:38,621 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127397469?image=data_mask&resolution=100 HTTP/1.1" 200 66911
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:41,148 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127397469?image=injection_density&resolution=100 HTTP/1.1" 200 7965
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:41,353 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/127397469?image=injection_fraction&resolution=100 HTTP/1.1" 200 7783
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 20:55:41,615 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/127397469?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 21:05:41,698 allensdk.api.api.retrieve_file_over_http ERROR    Couldn't retrieve file /data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/mouse_connectivity_models/paper/connectivity/experiment_127397469/projection_density_100.nrrd from http://api.brain-map.org/grid_data/download_file/127397469?image=projection_density&resolution=100 (timeout).
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	ERROR:allensdk.api.api.retrieve_file_over_http:Couldn't retrieve file /data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/mouse_connectivity_models/paper/connectivity/experiment_127397469/projection_density_100.nrrd from http://api.brain-map.org/grid_data/download_file/127397469?image=projection_density&resolution=100 (timeout).
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Traceback (most recent call last):
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    six.raise_from(e, None)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "<string>", line 3, in raise_from
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    httplib_response = conn.getresponse()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/http/client.py", line 1377, in getresponse
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    response.begin()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/http/client.py", line 320, in begin
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    version, status, reason = self._read_status()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/http/client.py", line 281, in _read_status
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/socket.py", line 716, in readinto
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    return self._sock.recv_into(b)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	socket.timeout: timed out
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	During handling of the above exception, another exception occurred:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Traceback (most recent call last):
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/adapters.py", line 667, in send
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    resp = conn.urlopen(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    retries = retries.increment(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/util/retry.py", line 552, in increment
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise six.reraise(type(error), error, _stacktrace)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/packages/six.py", line 770, in reraise
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise value
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    httplib_response = self._make_request(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 358, in _raise_timeout
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise ReadTimeoutError(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='api.brain-map.org', port=80): Read timed out. (read timeout=600)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	During handling of the above exception, another exception occurred:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Traceback (most recent call last):
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py", line 149, in <module>
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    main()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py", line 82, in main
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data, reg = fit_structure(cache, sid, experiments_exclude,
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py", line 31, in fit_structure
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data = ModelData(cache, structure_id).get_voxel_data(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/./mouse_connectivity_models/paper/figures/model_comparison/helpers/model_data.py", line 33, in get_voxel_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data.get_experiment_data(experiment_ids)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/base.py", line 263, in get_experiment_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    centroids, injections, projections = map(np.array, zip(*arrays))
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/base.py", line 112, in _experiment_generator
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    experiment = Experiment.from_cache(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/experiment.py", line 161, in from_cache
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data_volumes = _pull_grid_data(cache, experiment_id)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/experiment.py", line 42, in _pull_grid_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    "projection_density" : cache.get_projection_density(experiment_id)[0]
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/core/mouse_connectivity_cache.py", line 188, in get_projection_density
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self.api.download_projection_density(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/warehouse_cache/cache.py", line 661, in w
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    result = Cache.cacher(func,
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/warehouse_cache/cache.py", line 387, in cacher
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data = fn(*args, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/queries/mouse_connectivity_api.py", line 457, in download_projection_density
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self.download_projection_grid_data(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/queries/grid_data_api.py", line 175, in download_projection_grid_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self.retrieve_file_over_http(url, save_file_path)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/api.py", line 323, in retrieve_file_over_http
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    stream_file_over_http(url, file_path)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/api.py", line 439, in stream_file_over_http
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    with closing(requests.get(url, stream=True, timeout=timeout)) as response:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/api.py", line 73, in get
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    return request("get", url, params=params, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/api.py", line 59, in request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    return session.request(method=method, url=url, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    resp = self.send(prep, **send_kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    r = adapter.send(request, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/adapters.py", line 713, in send
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise ReadTimeout(e, request=request)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	requests.exceptions.ReadTimeout: HTTPConnectionPool(host='api.brain-map.org', port=80): Read timed out. (read timeout=600)

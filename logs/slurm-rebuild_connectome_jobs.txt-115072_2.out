@@ -1,0 +1,162 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+perl: warning: Setting locale failed.
+	LANG = "en_US.UTF-8"
+perl: warning: Please check that your locale settings:
+    are supported and installed on your system.
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_US",
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	perl: warning: Setting locale failed.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	perl: warning: Please check that your locale settings:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 		LANGUAGE = "en_US",
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 		LC_ALL = (unset),
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 		LANG = "en_US.UTF-8"
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    are supported and installed on your system.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	perl: warning: Falling back to the standard locale ("C").
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py:75: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  cumm_source_mask = np.zeros(annotation.shape, dtype=np.int)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:root:Building model for structure: Isocortex
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:21,475 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/277712166?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/277712166?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/277712166?image=projection_density&resolution=100 HTTP/1.1" 200 321357
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:28,346 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/158314278?image=data_mask&resolution=100 HTTP/1.1" 200 66067
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:29,064 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/158314278?image=injection_density&resolution=100 HTTP/1.1" 200 8054
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:29,429 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/158314278?image=injection_fraction&resolution=100 HTTP/1.1" 200 7960
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:29,636 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/158314278?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/158314278?image=projection_density&resolution=100 HTTP/1.1" 200 841901
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:45,405 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=data_mask&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/309372716?image=data_mask&resolution=100 HTTP/1.1" 200 96732
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:47,106 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=injection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/309372716?image=injection_density&resolution=100 HTTP/1.1" 200 9781
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:47,311 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=injection_fraction&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:http://api.brain-map.org:80 "GET /grid_data/download_file/309372716?image=injection_fraction&resolution=100 HTTP/1.1" 200 9784
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:30:47,519 allensdk.api.api.retrieve_file_over_http INFO     Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	INFO:allensdk.api.api.retrieve_file_over_http:Downloading URL: http://api.brain-map.org/grid_data/download_file/309372716?image=projection_density&resolution=100
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): api.brain-map.org:80
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	2026-01-23 15:31:18,655 allensdk.api.api.retrieve_file_over_http ERROR    Couldn't retrieve file /data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/mouse_connectivity_models/paper/connectivity/experiment_309372716/projection_density_100.nrrd from http://api.brain-map.org/grid_data/download_file/309372716?image=projection_density&resolution=100 (timeout).
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	ERROR:allensdk.api.api.retrieve_file_over_http:Couldn't retrieve file /data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/mouse_connectivity_models/paper/connectivity/experiment_309372716/projection_density_100.nrrd from http://api.brain-map.org/grid_data/download_file/309372716?image=projection_density&resolution=100 (timeout).
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Traceback (most recent call last):
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    six.raise_from(e, None)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "<string>", line 3, in raise_from
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 463, in _make_request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    httplib_response = conn.getresponse()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/http/client.py", line 1377, in getresponse
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    response.begin()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/http/client.py", line 320, in begin
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    version, status, reason = self._read_status()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/http/client.py", line 281, in _read_status
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/home/cic/natvik/.local/share/uv/python/cpython-3.9.23-linux-x86_64-gnu/lib/python3.9/socket.py", line 716, in readinto
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    return self._sock.recv_into(b)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	socket.timeout: timed out
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	During handling of the above exception, another exception occurred:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Traceback (most recent call last):
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/adapters.py", line 667, in send
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    resp = conn.urlopen(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    retries = retries.increment(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/util/retry.py", line 552, in increment
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise six.reraise(type(error), error, _stacktrace)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/packages/six.py", line 770, in reraise
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise value
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    httplib_response = self._make_request(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 358, in _raise_timeout
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise ReadTimeoutError(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='api.brain-map.org', port=80): Read timed out. (read timeout=31.1)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	During handling of the above exception, another exception occurred:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	Traceback (most recent call last):
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py", line 149, in <module>
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    main()
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py", line 82, in main
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data, reg = fit_structure(cache, sid, experiments_exclude,
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/build_model_new_excluded.py", line 31, in fit_structure
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data = ModelData(cache, structure_id).get_voxel_data(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/./mouse_connectivity_models/paper/figures/model_comparison/helpers/model_data.py", line 33, in get_voxel_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data.get_experiment_data(experiment_ids)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/base.py", line 263, in get_experiment_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    centroids, injections, projections = map(np.array, zip(*arrays))
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/base.py", line 112, in _experiment_generator
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    experiment = Experiment.from_cache(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/experiment.py", line 161, in from_cache
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data_volumes = _pull_grid_data(cache, experiment_id)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/mcmodels/core/experiment.py", line 42, in _pull_grid_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    "projection_density" : cache.get_projection_density(experiment_id)[0]
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/core/mouse_connectivity_cache.py", line 188, in get_projection_density
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self.api.download_projection_density(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/warehouse_cache/cache.py", line 661, in w
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    result = Cache.cacher(func,
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/warehouse_cache/cache.py", line 387, in cacher
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    data = fn(*args, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/queries/mouse_connectivity_api.py", line 457, in download_projection_density
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self.download_projection_grid_data(
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/queries/grid_data_api.py", line 175, in download_projection_grid_data
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    self.retrieve_file_over_http(url, save_file_path)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/api.py", line 323, in retrieve_file_over_http
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    stream_file_over_http(url, file_path)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/allensdk/api/api.py", line 439, in stream_file_over_http
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    with closing(requests.get(url, stream=True, timeout=timeout)) as response:
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/api.py", line 73, in get
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    return request("get", url, params=params, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/api.py", line 59, in request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    return session.request(method=method, url=url, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    resp = self.send(prep, **send_kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    r = adapter.send(request, **kwargs)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	  File "/data/chamal/projects/natvik/allen_qc_reproducible_01192026/analysis/.venv/lib/python3.9/site-packages/requests/adapters.py", line 713, in send
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	    raise ReadTimeout(e, request=request)
+./rebuild_knox_connectome.sh "experiments_exclude_updated.json" 	requests.exceptions.ReadTimeout: HTTPConnectionPool(host='api.brain-map.org', port=80): Read timed out. (read timeout=31.1)
