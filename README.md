@@ -14,6 +14,7 @@ All analyses were run on a Linux OS with the following packages/scripts download
 * `make_slices_images.sh` (https://github.com/CoBrALab/make_slice_images) and PyQC for manual QC images (https://github.com/CoBrALab/PyQC)
 * Brain Connectivity Toolbox: https://sites.google.com/site/bctnet/ - download within working directory
 * `rstudio` version 2022.02.3+492: for visualizations
+* `ggslicer` for mouse brain visualizations (see https://github.com/yohanyee/ggslicer)
 
 
 ## Quickstart to Reproduce Results
