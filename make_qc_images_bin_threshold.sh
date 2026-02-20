@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+
 module load minc-toolkit-v2
 module load ANTs
 # Define file paths
@@ -7,7 +9,7 @@ inj_thresh=$1
 proj_thresh=$2
 
 inj_dir="../preprocessed/knox_connectome_tracers/"
-proj_dir=${inj_dir}
+proj_dir="${inj_dir}"
 
 mkdir -p "../derivatives/knox_inj/"
 mkdir -p "../derivatives/knox_proj/"
@@ -22,8 +24,8 @@ mkdir -p "${qc_jpg_dir_proj}"
 #qc_jpg_dir_proj="../derivatives/knox_proj/bin0.1/"
 allen_50um_template_path="../preprocessed/allen_template_inputs/average_template_50.mnc"
 
-mkdir -p ${qc_jpg_dir_inj}
-mkdir -p ${qc_jpg_dir_proj}
+mkdir -p "${qc_jpg_dir_inj}"
+mkdir -p "${qc_jpg_dir_proj}"
 
 csv_file_main_exps="./knox_experiment_csvs/knox_experiments_included.csv"
 csv_file_removed_exps="./knox_experiment_csvs/knox_excluded_tracers.csv"
@@ -54,13 +56,13 @@ for csv_file in "${!file_to_outdir[@]}"; do
 
           ./make_slice_images.sh \
           --label-overlay-opacity 0.5 \
-          --label-overlay $inj_file_thresh \
+          --label-overlay "$inj_file_thresh" \
           "${allen_50um_template_path}" \
           "${qc_jpg_dir_inj}${outdir_extension}/${tracer}.jpg"
 
           ./make_slice_images.sh \
           --label-overlay-opacity 0.5 \
-          --label-overlay $proj_file_thresh \
+          --label-overlay "$proj_file_thresh" \
           "${allen_50um_template_path}" \
           "${qc_jpg_dir_proj}${outdir_extension}/${tracer}.jpg"
      done
@@ -69,7 +71,7 @@ done
 ###list of tracers to create cropped images (no injection seen in original QC image)
 allen_50um_template_path="../preprocessed/allen_template_inputs/average_template_50.mnc"
 inj_dir="../preprocessed/knox_connectome_tracers/"
-proj_dir=${inj_dir}
+proj_dir="${inj_dir}"
 tracers_inj=("180568155" "180708524" "146856593" "120494729" "180404418" "272970039" "112424813" "272825299" "100148443" "147790181" "120493315" "114400640" "112460257" "273055501" "277618054" "148197327" "114045733" "100148554" "180523704" "146012184" "158738894" "100141598" "126351299" "141601779" "126352037")
 qc_jpg_dir_inj="../derivatives/knox_inj/bin${inj_thresh}/cropped/"
 mkdir -p "${qc_jpg_dir_inj}"
@@ -86,8 +88,8 @@ for tracer in "${tracers_inj_not_in_knox[@]}"; do
 
       ./make_slice_images.sh \
      --label-overlay-opacity 0.5 \
-     --crop-file $inj_file_thresh \
-     --label-overlay $inj_file_thresh \
+     --crop-file "$inj_file_thresh" \
+     --label-overlay "$inj_file_thresh" \
      "${allen_50um_template_path}" \
      "${qc_jpg_dir_inj}/${tracer}.jpg"
 done
@@ -99,8 +101,8 @@ for tracer in "${tracers_inj[@]}"; do
 
       ./make_slice_images.sh \
      --label-overlay-opacity 0.5 \
-     --crop-file $inj_file_thresh \
-     --label-overlay $inj_file_thresh \
+     --crop-file "$inj_file_thresh" \
+     --label-overlay "$inj_file_thresh" \
      "${allen_50um_template_path}" \
      "${qc_jpg_dir_inj}/${tracer}.jpg"
 done
@@ -110,8 +112,8 @@ for tracer in "${tracers_proj[@]}"; do
 
      ./make_slice_images.sh \
      --label-overlay-opacity 0.5 \
-     --crop-file $proj_file_thresh \
-     --label-overlay $proj_file_thresh \
+     --crop-file "$proj_file_thresh" \
+     --label-overlay "$proj_file_thresh" \
      "${allen_50um_template_path}" \
      "${qc_jpg_dir_proj}/${tracer}.jpg"
 done

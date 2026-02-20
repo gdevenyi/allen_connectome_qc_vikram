@@ -1,4 +1,6 @@
-#!/bin/bash                                                                                           
+#!/bin/bash
+set -euo pipefail
+
 module load anaconda R
 module load minc-toolkit-v2
 module load RMINC
@@ -17,7 +19,6 @@ uv pip install --no-build-isolation .
 git clone https://github.com/yohanyee/ggslicer
 
 ###download Brain Connectivity Toolbox for graph theory
-set -e
 FILE_ID="1DmMvRnferBfGe057O-sZwB5jL4j8w1Hu"
 ZIP_NAME="BCT.zip"
 # install gdown if needed
@@ -43,15 +44,15 @@ knox_region_list="../preprocessed/allen_template_inputs/knox_connectome_rgn_numb
 
 ###rebuild connectomes with the original list of experiments to exclude from Knox et al., 2018
 source .venv/bin/activate
-./rebuild_oh_connectome.sh "experiments_exclude.json" ${oh_rgn_list} "original"
-./rebuild_oh_connectome.sh "experiments_exclude.json" ${knox_region_list} "original_291"
+./rebuild_oh_connectome.sh "experiments_exclude.json" "${oh_rgn_list}" "original"
+./rebuild_oh_connectome.sh "experiments_exclude.json" "${knox_region_list}" "original_291"
 ./rebuild_knox_connectome.sh "experiments_exclude.json" "original"
 ./rebuild_knox_connectome.sh "experiments_exclude.json" "original_oh_211_regions"
 ./rebuild_knox_connectome.sh "experiments_exclude_updated.json" "rebuilt_oh_211_regions" 
 
 ###rebuild connectomes with increased list of experiments to exclude post-QC
-./rebuild_oh_connectome.sh "experiments_exclude_updated.json" ${oh_rgn_list} "rebuilt"
-./rebuild_oh_connectome.sh "experiments_exclude_updated.json" ${knox_region_list} "rebuilt_291"
+./rebuild_oh_connectome.sh "experiments_exclude_updated.json" "${oh_rgn_list}" "rebuilt"
+./rebuild_oh_connectome.sh "experiments_exclude_updated.json" "${knox_region_list}" "rebuilt_291"
 ./rebuild_knox_connectome.sh "experiments_exclude_updated.json" "rebuilt" ##automatically writes out 291 regions
 ./rebuild_knox_connectome.sh "experiments_exclude_updated.json" "rebuilt_oh_211_regions" ##automatically writes out 211 rgns from Oh et al.
 
