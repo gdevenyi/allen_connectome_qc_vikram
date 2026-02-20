@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 module load minc-toolkit-v2
 module load ANTs
 # Define file paths

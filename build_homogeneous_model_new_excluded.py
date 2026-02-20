@@ -27,11 +27,35 @@ OUTPUT_DIR='./mouse_connectivity_models/paper/figures/model_comparison/output/'
 THRESHOLD_INJECTION = True
 
 def get_summary_structure_ids(rgn_list_path): ###change this to be consistent with Oh et al., 2014
+    """Read structure IDs from a region list CSV file.
+
+    Args:
+        rgn_list_path (str): Path to a headerless CSV file whose first column
+            contains integer structure IDs.
+
+    Returns:
+        pandas.Series: Series of structure IDs.
+    """
     structures = pd.read_csv(rgn_list_path, header=None).loc[:,0]
     return structures
 
 
 def fit(cache, rgn_list_path, eid_set=None, experiments_exclude=[], high_res=False, threshold_injection=True):
+    """Fit a homogeneous connectivity model for ipsilateral and contralateral projections.
+
+    Args:
+        cache: VoxelModelCache instance providing access to Allen SDK data.
+        rgn_list_path (str): Path to a headerless CSV file of region structure IDs.
+        eid_set (list, optional): Restrict fitting to these experiment IDs.
+            Defaults to None (use all available experiments).
+        experiments_exclude (list): Experiment IDs to exclude. Defaults to [].
+        high_res (bool): Use high-resolution regional data. Defaults to False.
+        threshold_injection (bool): Apply injection thresholding. Defaults to True.
+
+    Returns:
+        pandas.DataFrame: Multi-level DataFrame with ipsilateral and contralateral
+            weight matrices indexed by injection region and columned by projection region.
+    """
     logging.debug('getting data')
     ipsi_data = ModelData(cache, ROOT_ID).get_regional_data(rgn_list_path,
         eid_set=eid_set, experiments_exclude=experiments_exclude, high_res=high_res,
@@ -69,6 +93,12 @@ def fit(cache, rgn_list_path, eid_set=None, experiments_exclude=[], high_res=Fal
 
 
 def main():
+    """Build and save a homogeneous connectivity model.
+
+    Reads configuration from Allen SDK input.json, fits a HomogeneousModel using
+    the specified experiments-to-exclude JSON (sys.argv[1]), region list (sys.argv[2]),
+    and output suffix (sys.argv[3]), then writes the resulting weight DataFrame as a CSV.
+    """
     input_data = ju.read(INPUT_JSON)
 
     manifest_file = input_data.get('manifest_file')

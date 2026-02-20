@@ -54,6 +54,14 @@ if os.path.exists(args.outfile) and not args.clobber:
 
 
 def is_minc(infile):
+    """Check whether a file is a MINC volume based on its extension.
+
+    Args:
+        infile (str): Path to the input file.
+
+    Returns:
+        bool: True if the file has a .mnc extension, False otherwise.
+    """
     if os.path.splitext(infile)[1] == ".mnc":
         return(True)
     else:
@@ -61,16 +69,38 @@ def is_minc(infile):
 
 
 def itk_convert(infile, outfile):
+    """Convert a volume between formats using itk_convert.
+
+    Args:
+        infile (str): Path to the input volume (NRRD, NIfTI, or MINC).
+        outfile (str): Path to the output volume.
+    """
     call(["itk_convert", "--clobber", infile, outfile])
 
 
 def remove_temp_files(file_list):
+    """Close and remove a list of temporary file objects if they exist.
+
+    Args:
+        file_list (list): List of NamedTemporaryFile objects to clean up.
+    """
     for f in file_list:
         if os.path.exists(f.name):
             f.close()
 
 
 def reorient_to_standard(dat):
+    """Reorient a volume array from PIR to RAS standard orientation.
+
+    Applies two 90-degree rotations to convert from the Allen CCFv3 PIR
+    (Posterior-Inferior-Right) convention to RAS (Right-Anterior-Superior).
+
+    Args:
+        dat (numpy.ndarray): 3D voxel data array in PIR orientation.
+
+    Returns:
+        numpy.ndarray: 3D voxel data array reoriented to RAS convention.
+    """
     dat = np.rot90(dat, k=1, axes=(0, 2))
     dat = np.rot90(dat, k=1, axes=(0, 1))
 
@@ -82,6 +112,14 @@ def reorient_to_standard(dat):
 
 
 def do_nothing(dat):
+    """Return the data array unchanged (identity function for PIR voxel orientation).
+
+    Args:
+        dat (numpy.ndarray): 3D voxel data array.
+
+    Returns:
+        numpy.ndarray: The same array, unmodified.
+    """
     return(dat)
 
 # %% Coordinate definitions

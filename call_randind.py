@@ -1,3 +1,10 @@
+"""Calculate mutual information between community assignments from MATLAB output files.
+
+This module computes adjusted mutual information scores between pairs of community
+assignment vectors, used to identify stable community assignments across Louvain
+iterations at various resolution parameters (gammas).
+"""
+
 import numpy as np
 from sklearn.metrics.cluster import adjusted_rand_score
 from sklearn.metrics.cluster import adjusted_mutual_info_score
@@ -6,10 +13,27 @@ import scipy.io
 import pandas as pd
 import itertools
 
-def call_rand(ar1,ar2):
-    return adjusted_mutual_info_score(ar1,ar2)
+def call_rand(ar1, ar2):
+    """Compute adjusted mutual information between two community assignments.
+
+    Args:
+        ar1: First array of community labels.
+        ar2: Second array of community labels.
+
+    Returns:
+        float: Adjusted mutual information score between ar1 and ar2.
+    """
+    return adjusted_mutual_info_score(ar1, ar2)
 
 def parse_args():
+    """Parse command-line arguments for the script.
+
+    Returns:
+        argparse.Namespace: Parsed arguments with attributes:
+            matfile (str): Path to the input .mat file.
+            flag (int): Mode flag (0 for gamma sweep, 1 for pairwise comparison).
+            suffix (str): Output filename suffix.
+    """
     parser=argparse.ArgumentParser(description='Permutation for connectivity')
     parser.add_argument('--matfile', type=str)
     parser.add_argument('--flag', type=int)

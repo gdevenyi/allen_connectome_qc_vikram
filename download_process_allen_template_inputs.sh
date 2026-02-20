@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 output_dir="../preprocessed/allen_template_inputs/"
 

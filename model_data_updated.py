@@ -4,17 +4,46 @@ from mcmodels.utils import unionize
 import pandas as pd
 
 class ModelData(object):
+    """Wrapper around Allen SDK VoxelModelCache for retrieving experiment data.
+
+    Provides methods to obtain experiment IDs and voxel/regional data for a
+    given injection structure, with support for experiment exclusion lists and
+    region-list-based summary structure definitions.
+    """
 
     def __init__(self, cache, structure_id):
+        """Initialize ModelData with a cache and target structure ID.
+
+        Args:
+            cache: VoxelModelCache instance providing access to Allen SDK data.
+            structure_id (int): Allen structure ID for the injection structure.
+        """
         self.cache = cache
         self.structure_id = structure_id
 
     def get_structure_id(self, acronym):
+        """Return the Allen structure ID for a given acronym.
+
+        Args:
+            acronym (str): Allen brain atlas region acronym (e.g. 'VISp').
+
+        Returns:
+            int: Allen structure ID corresponding to the acronym.
+        """
         structure_tree = self.cache.get_structure_tree()
         return structure_tree.get_structures_by_acronym([acronym])[0]['id']
 
     def get_experiment_ids(self, eid_set=None, experiments_exclude=[]):
-        """gets model data from ..."""
+        """Return valid experiment IDs for this structure after filtering.
+
+        Args:
+            eid_set (list, optional): Restrict to this set of experiment IDs.
+                Defaults to None (use all available experiments).
+            experiments_exclude (list): Experiment IDs to exclude. Defaults to [].
+
+        Returns:
+            set: Experiment IDs that are in eid_set and not in experiments_exclude.
+        """
 
         # get experiments
         experiments = self.cache.get_experiments(
@@ -26,6 +55,15 @@ class ModelData(object):
         return set(experiment_ids) & set(eid_set) - set(experiments_exclude)
 
     def get_voxel_data(self, **kwargs):
+        """Return voxel-level injection/projection data for this structure.
+
+        Args:
+            **kwargs: Passed to get_experiment_ids (e.g. eid_set, experiments_exclude).
+
+        Returns:
+            VoxelData: Object containing injection and projection arrays for
+                the retrieved experiments.
+        """
         experiment_ids = self.get_experiment_ids(**kwargs)
 
         data = VoxelData(self.cache, injection_structure_ids=[self.structure_id],
@@ -35,6 +73,26 @@ class ModelData(object):
         return data
 
     def get_regional_data(self, rgn_list_path, high_res=False, threshold_injection=True, **kwargs):
+        """Return regionalized injection/projection data for this structure.
+
+        Overrides the default Allen summary structures by reading region IDs from a
+        CSV file at rgn_list_path, enabling compatibility with Oh et al., 2014 or
+        Knox et al. region sets.
+
+        Args:
+            rgn_list_path (str): Path to a headerless CSV whose first column lists
+                integer structure IDs defining the projection/injection regions.
+            high_res (bool): Use RegionalData (high-res) instead of VoxelData.
+                Defaults to False.
+            threshold_injection (bool): Remove injections below the 5th percentile
+                of non-zero injection values. Defaults to True.
+            **kwargs: Passed to get_experiment_ids (e.g. eid_set, experiments_exclude,
+                projection_hemisphere_id).
+
+        Returns:
+            VoxelData or RegionalData: Object with .injections and .projections
+                arrays unionized over the specified region set.
+        """
         def get_summary_structure_ids(): ###toggle/change this to be consistent with Oh et al., 2014
             #structure_tree = self.cache.get_structure_tree()
             #structures = structure_tree.get_structures_by_set_id([687527945])
@@ -43,7 +101,15 @@ class ModelData(object):
             return structures
         
         def get_injection_regions(region_set):
-            """Return regions in region_set if descend from structure_id"""
+            """Return regions in region_set that descend from structure_id.
+
+            Args:
+                region_set: Iterable of region structure IDs to filter.
+
+            Returns:
+                list: Region IDs from region_set that are descendants of
+                    self.structure_id in the Allen structure tree.
+            """
             st = self.cache.get_structure_tree()
             return [r for r in region_set
                     if st.structure_descends_from(r, self.structure_id)]

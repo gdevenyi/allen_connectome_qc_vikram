@@ -28,6 +28,21 @@ LOG = False
 
 def fit_structure(cache, structure_id, experiments_exclude, kernel_params,
                   model_option='standard'):
+    """Fit a voxel connectivity model for a single brain structure.
+
+    Args:
+        cache: VoxelModelCache instance providing access to Allen SDK data.
+        structure_id (int): Allen structure ID for the injection structure.
+        experiments_exclude (list): Experiment IDs to exclude from model fitting.
+        kernel_params (dict): Kernel hyperparameters; must include either 'shape'
+            (for Polynomial kernel) or 'gamma' (for RBF kernel).
+        model_option (str): Model variant, either 'standard' or 'log'. Defaults
+            to 'standard'.
+
+    Returns:
+        tuple: (data, reg) where data is a ModelData instance and reg is the
+            fitted VoxelModelError object.
+    """
     data = ModelData(cache, structure_id).get_voxel_data(
         experiments_exclude=experiments_exclude)
 
@@ -45,6 +60,14 @@ def fit_structure(cache, structure_id, experiments_exclude, kernel_params,
 
 
 def main():
+    """Build and save regionalized voxel connectivity models.
+
+    Reads input configuration from the Allen SDK input.json, loads hyperparameters,
+    fits per-structure voxel models, regionalizes the resulting weights, and writes
+    connection density/strength CSVs and raw weight/node files to the output directory.
+    The experiments-to-exclude JSON path and output filename suffix are taken from
+    sys.argv[1] and sys.argv[2] respectively.
+    """
     input_data = ju.read(INPUT_JSON)
 
     structures = input_data.get('structures')
@@ -72,7 +95,7 @@ def main():
 
     # mask for reordering source
     annotation = cache.get_annotation_volume()[0]
-    cumm_source_mask = np.zeros(annotation.shape, dtype=np.int)
+    cumm_source_mask = np.zeros(annotation.shape, dtype=int)
 
     offset = 1 # start @ 1 so that nonzero can be used
     weights, nodes = [], []
@@ -85,7 +108,7 @@ def main():
         w = reg.get_weights(data.injection_mask.coordinates)
 
         # assign ordering to full source
-        ordering = np.arange(offset, w.shape[0] + offset, dtype=np.int)
+        ordering = np.arange(offset, w.shape[0] + offset, dtype=int)
         offset += w.shape[0]
 
         # get source mask

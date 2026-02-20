@@ -58,10 +58,31 @@ class HybridScorer(object):
         return dict(voxel=self.voxel_scorer(), regional=self.regional_scorer(**reg_kwargs))
 
 def log_mean_squared_relative_error(y_true, y_pred):
+    """Compute mean squared relative error after log10 transformation.
+
+    Args:
+        y_true: Array of true values.
+        y_pred: Array of predicted values.
+
+    Returns:
+        float: Mean squared relative error between log10(y_true) and log10(y_pred),
+            where values are shifted by 1e-8 before taking the log.
+    """
     log = lambda x: np.log10(x + 1e-8)
     return mean_squared_relative_error(log(y_true), log(y_pred))
 
 def log_regional_mean_squared_relative_error(y_true, y_pred, **kwargs):
+    """Compute regional mean squared relative error after log10 transformation.
+
+    Args:
+        y_true: Array of true values.
+        y_pred: Array of predicted values.
+        **kwargs: Passed to regional_mean_squared_relative_error (ipsi_key,
+            contra_key, ipsi_regions, contra_regions).
+
+    Returns:
+        float: Regional mean squared relative error between log10-transformed inputs.
+    """
     log = lambda x: np.log10(x + 1e-8)
     return regional_mean_squared_relative_error(log(y_true), log(y_pred), **kwargs)
 
@@ -79,7 +100,26 @@ class LogHybridScorer(HybridScorer):
 
 
 def unionize(v, ipsi_key, contra_key, ipsi_regions, contra_regions):
-    """unionizes v (:, len(k)) to regions defined in key"""
+    """Unionize experiment connectivity array v to ipsilateral and contralateral regions.
+
+    Sums columns of v according to the region assignments given by ipsi_key and
+    contra_key, producing one aggregated value per region per experiment.
+
+    Args:
+        v: Array of shape (n_experiments, n_voxels) to unionize.
+        ipsi_key: Array mapping voxels to ipsilateral region IDs.
+        contra_key: Array mapping voxels to contralateral region IDs.
+        ipsi_regions: Ordered list of ipsilateral region IDs to aggregate.
+        contra_regions: Ordered list of contralateral region IDs to aggregate.
+
+    Returns:
+        numpy.ndarray: Array of shape (n_experiments, len(ipsi_regions) +
+            len(contra_regions)) with summed values per region.
+
+    Raises:
+        ValueError: If ipsi_key and contra_key have different shapes, or if
+            the number of voxels in v does not match the key size.
+    """
     if ipsi_key.shape != contra_key.shape:
         # NOTE: better error message
         raise ValueError("keys are incompatible")
@@ -99,7 +139,18 @@ def unionize(v, ipsi_key, contra_key, ipsi_regions, contra_regions):
 
 
 def mean_squared_relative_error(y_true, y_pred, multioutput='uniform_average'):
-    """Scorer from ..."""
+    """Compute mean squared relative error between true and predicted values.
+
+    Args:
+        y_true: Array of true target values.
+        y_pred: Array of predicted values.
+        multioutput (str): Aggregation strategy for multiple outputs.
+            Defaults to 'uniform_average'.
+
+    Returns:
+        float: Symmetric mean squared relative error:
+            2 * ||y_true - y_pred||^2 / (||y_true||^2 + ||y_pred||^2).
+    """
     _, y_true, y_pred, _ = _check_reg_targets(y_true, y_pred, multioutput)
     #result = squared_norm(y_true - y_pred) / max(squared_norm(y_true), squared_norm(y_pred))
     result = 2 * squared_norm(y_true - y_pred) / (squared_norm(y_true) + squared_norm(y_pred))
@@ -107,6 +158,22 @@ def mean_squared_relative_error(y_true, y_pred, multioutput='uniform_average'):
 
 
 def regional_mean_squared_relative_error(y_true, y_pred, **kwargs):
+    """Compute mean squared relative error at the regional (unionized) level.
+
+    Args:
+        y_true: Array of true voxel-level target values.
+        y_pred: Array of predicted voxel-level values.
+        **kwargs: Must include ipsi_key, contra_key, ipsi_regions, and
+            contra_regions for unionization.
+
+    Returns:
+        float: Mean squared relative error between the regionalized true and
+            predicted arrays.
+
+    Raises:
+        ValueError: If required kwargs (ipsi_key, contra_key, ipsi_regions,
+            contra_regions) are not provided.
+    """
     try:
         ipsi_key = kwargs.pop('ipsi_key')
         contra_key = kwargs.pop('contra_key')
@@ -122,8 +189,24 @@ def regional_mean_squared_relative_error(y_true, y_pred, **kwargs):
 
 
 def mse_rel():
+    """Return a scikit-learn scorer for mean squared relative error.
+
+    Returns:
+        sklearn.metrics.scorer._PredictScorer: Scorer wrapping
+            mean_squared_relative_error with greater_is_better=False.
+    """
     return make_scorer(mean_squared_relative_error, greater_is_better=False)
 
 
 def regional_mse_rel(**kwargs):
+    """Return a scikit-learn scorer for regional mean squared relative error.
+
+    Args:
+        **kwargs: Passed to regional_mean_squared_relative_error (ipsi_key,
+            contra_key, ipsi_regions, contra_regions).
+
+    Returns:
+        sklearn.metrics.scorer._PredictScorer: Scorer wrapping
+            regional_mean_squared_relative_error with greater_is_better=False.
+    """
     return make_scorer(regional_mean_squared_relative_error, greater_is_better=False, **kwargs)

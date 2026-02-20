@@ -1,4 +1,5 @@
-#!/bin/bash                                                                                           
+#!/bin/bash
+set -euo pipefail
 module load anaconda R
 module load minc-toolkit-v2
 module load RMINC

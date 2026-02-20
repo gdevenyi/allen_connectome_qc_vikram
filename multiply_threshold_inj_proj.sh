@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 module load minc-toolkit-v2
 #GOAL: get "true" injection density in annotated area by multiplying injection fraction with injection density

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 ###update allensdk download function to accommodate longer timeouts and download all data
 ### === Step: increase allensdk HTTP stream timeout ===
@@ -16,7 +17,7 @@ if [[ ! -f "${ALLENSDK_API_FILE}.bak" ]]; then
 fi
 
 # ---- Patch 1: stream_zip_directory_over_http ----
-if grep -q "timeout=(30, 1000)" "$ALLENSDK_API_FILE" | grep -q "stream_zip_directory_over_http"; then
+if grep -q "timeout=(30, 1000)" "$ALLENSDK_API_FILE"; then
     echo "✅ stream_zip_directory_over_http already patched — skipping"
 else
     sed -i \

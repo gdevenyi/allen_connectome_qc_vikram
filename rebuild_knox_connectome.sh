@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 source .venv/bin/activate
 excluded_exps_file=$1

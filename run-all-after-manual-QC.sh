@@ -1,4 +1,5 @@
-#!/bin/bash                                                                                           
+#!/bin/bash
+set -euo pipefail
 module load anaconda R
 module load minc-toolkit-v2
 module load RMINC
@@ -17,11 +18,12 @@ uv pip install --no-build-isolation .
 git clone https://github.com/yohanyee/ggslicer
 
 ###download Brain Connectivity Toolbox for graph theory
-set -e
 FILE_ID="1DmMvRnferBfGe057O-sZwB5jL4j8w1Hu"
 ZIP_NAME="BCT.zip"
 # install gdown if needed
-command -v gdown >/dev/null 2>&1
+if ! command -v gdown >/dev/null 2>&1; then
+    uv pip install gdown
+fi
 # download
 gdown --id "$FILE_ID" -O "$ZIP_NAME"
 # unzip into current directory
