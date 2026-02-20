@@ -1,3 +1,5 @@
+"""Scoring functions for Allen connectivity model evaluation."""
+
 from __future__ import division
 import numpy as np
 
@@ -9,16 +11,19 @@ from mcmodels.utils import squared_norm
 
 
 class HybridScorer(object):
+    """Scorer combining voxel-level and regional-level error metrics."""
 
     DEFAULT_STRUCTURE_SET_ID = 687527945
 
     @staticmethod
     def voxel_scorer():
+        """Return a voxel-level mean squared relative error scorer."""
         return make_scorer(mean_squared_relative_error, greater_is_better=False)
 
 
     @staticmethod
     def regional_scorer(**kwargs):
+        """Return a regional-level mean squared relative error scorer."""
         return make_scorer(regional_mean_squared_relative_error, greater_is_better=False, **kwargs)
 
     @property
@@ -58,15 +63,18 @@ class HybridScorer(object):
         return dict(voxel=self.voxel_scorer(), regional=self.regional_scorer(**reg_kwargs))
 
 def log_mean_squared_relative_error(y_true, y_pred):
+    """Compute mean squared relative error in log10 space."""
     log = lambda x: np.log10(x + 1e-8)
     return mean_squared_relative_error(log(y_true), log(y_pred))
 
 def log_regional_mean_squared_relative_error(y_true, y_pred, **kwargs):
+    """Compute regional mean squared relative error in log10 space."""
     log = lambda x: np.log10(x + 1e-8)
     return regional_mean_squared_relative_error(log(y_true), log(y_pred), **kwargs)
 
 
 class LogHybridScorer(HybridScorer):
+    """HybridScorer variant that operates in log10 space."""
 
     @staticmethod
     def voxel_scorer():
@@ -122,8 +130,10 @@ def regional_mean_squared_relative_error(y_true, y_pred, **kwargs):
 
 
 def mse_rel():
+    """Return a voxel-level mean squared relative error scorer."""
     return make_scorer(mean_squared_relative_error, greater_is_better=False)
 
 
 def regional_mse_rel(**kwargs):
+    """Return a regional mean squared relative error scorer."""
     return make_scorer(regional_mean_squared_relative_error, greater_is_better=False, **kwargs)

@@ -1,3 +1,5 @@
+"""Build voxel connectivity model with configurable experiment exclusions."""
+
 from __future__ import division
 import os
 import logging
@@ -28,6 +30,18 @@ LOG = False
 
 def fit_structure(cache, structure_id, experiments_exclude, kernel_params,
                   model_option='standard'):
+    """Fit a voxel model for a single brain structure.
+
+    Args:
+        cache: VoxelModelCache instance.
+        structure_id: Allen brain structure ID.
+        experiments_exclude: List of experiment IDs to exclude.
+        kernel_params: Dictionary of kernel hyperparameters.
+        model_option: Model variant ('standard' or 'log').
+
+    Returns:
+        Tuple of (VoxelData, fitted model).
+    """
     data = ModelData(cache, structure_id).get_voxel_data(
         experiments_exclude=experiments_exclude)
 
@@ -45,6 +59,7 @@ def fit_structure(cache, structure_id, experiments_exclude, kernel_params,
 
 
 def main():
+    """Entry point: parse inputs, fit per-structure models, regionalize, and save."""
     input_data = ju.read(INPUT_JSON)
 
     structures = input_data.get('structures')

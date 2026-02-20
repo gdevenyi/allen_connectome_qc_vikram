@@ -1,3 +1,5 @@
+"""Build homogeneous connectivity model with configurable experiment exclusions."""
+
 from __future__ import division
 import os
 import logging
@@ -26,12 +28,35 @@ HIGH_RES = False
 OUTPUT_DIR='./mouse_connectivity_models/paper/figures/model_comparison/output/'
 THRESHOLD_INJECTION = True
 
-def get_summary_structure_ids(rgn_list_path): ###change this to be consistent with Oh et al., 2014
+def get_summary_structure_ids(rgn_list_path):
+    """Load summary structure IDs from a CSV file.
+
+    Args:
+        rgn_list_path: Path to a headerless CSV with structure IDs in column 0.
+
+    Returns:
+        Series of structure IDs.
+    """
     structures = pd.read_csv(rgn_list_path, header=None).loc[:,0]
     return structures
 
 
-def fit(cache, rgn_list_path, eid_set=None, experiments_exclude=[], high_res=False, threshold_injection=True):
+def fit(cache, rgn_list_path, eid_set=None, experiments_exclude=None, high_res=False, threshold_injection=True):
+    """Fit the homogeneous connectivity model.
+
+    Args:
+        cache: VoxelModelCache instance.
+        rgn_list_path: Path to CSV listing region IDs.
+        eid_set: Optional set of experiment IDs to include.
+        experiments_exclude: Optional list of experiment IDs to exclude.
+        high_res: If True, use RegionalData containers.
+        threshold_injection: If True, zero out injections below 5th percentile.
+
+    Returns:
+        DataFrame of ipsi/contra connectivity weights.
+    """
+    if experiments_exclude is None:
+        experiments_exclude = []
     logging.debug('getting data')
     ipsi_data = ModelData(cache, ROOT_ID).get_regional_data(rgn_list_path,
         eid_set=eid_set, experiments_exclude=experiments_exclude, high_res=high_res,
@@ -69,6 +94,7 @@ def fit(cache, rgn_list_path, eid_set=None, experiments_exclude=[], high_res=Fal
 
 
 def main():
+    """Entry point: parse inputs, fit model, and save results."""
     input_data = ju.read(INPUT_JSON)
 
     manifest_file = input_data.get('manifest_file')

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Orient Allen Institute CCFv3 imaging data to standard coordinate spaces."""
 
 # %% Imports
 
@@ -54,6 +55,7 @@ if os.path.exists(args.outfile) and not args.clobber:
 
 
 def is_minc(infile):
+    """Check if a file has a MINC (.mnc) extension."""
     if os.path.splitext(infile)[1] == ".mnc":
         return(True)
     else:
@@ -61,16 +63,19 @@ def is_minc(infile):
 
 
 def itk_convert(infile, outfile):
+    """Convert a volume between formats using itk_convert."""
     call(["itk_convert", "--clobber", infile, outfile])
 
 
 def remove_temp_files(file_list):
+    """Remove temporary files created during processing."""
     for f in file_list:
         if os.path.exists(f.name):
             f.close()
 
 
 def reorient_to_standard(dat):
+    """Reorient volume data from PIR to RAS orientation."""
     dat = np.rot90(dat, k=1, axes=(0, 2))
     dat = np.rot90(dat, k=1, axes=(0, 1))
 
@@ -82,6 +87,7 @@ def reorient_to_standard(dat):
 
 
 def do_nothing(dat):
+    """Return data unchanged (identity transform for PIR orientation)."""
     return(dat)
 
 # %% Coordinate definitions

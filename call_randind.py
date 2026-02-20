@@ -1,3 +1,5 @@
+"""Compute adjusted mutual information scores for community detection results."""
+
 import numpy as np
 from sklearn.metrics.cluster import adjusted_rand_score
 from sklearn.metrics.cluster import adjusted_mutual_info_score
@@ -6,11 +8,25 @@ import scipy.io
 import pandas as pd
 import itertools
 
-def call_rand(ar1,ar2):
-    return adjusted_mutual_info_score(ar1,ar2)
+def call_rand(ar1, ar2):
+    """Compute the adjusted mutual information score between two label arrays.
+
+    Args:
+        ar1: First array of cluster labels.
+        ar2: Second array of cluster labels.
+
+    Returns:
+        Adjusted mutual information score between ar1 and ar2.
+    """
+    return adjusted_mutual_info_score(ar1, ar2)
 
 def parse_args():
-    parser=argparse.ArgumentParser(description='Permutation for connectivity')
+    """Parse command-line arguments for community permutation analysis.
+
+    Returns:
+        Parsed arguments with matfile, flag, and suffix attributes.
+    """
+    parser = argparse.ArgumentParser(description='Permutation for connectivity')
     parser.add_argument('--matfile', type=str)
     parser.add_argument('--flag', type=int)
     parser.add_argument('--suffix', type=str)
